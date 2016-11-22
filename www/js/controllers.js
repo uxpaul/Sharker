@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
 
   $scope.mapCreated = function(map) {
     $scope.map = map;
-
+    
 
 //Marker + infowindow + angularjs compiled ng-click
 var contentString = "<div><a ng-click='clickTest()'>Voir les détails</a></div>";
